@@ -26,7 +26,7 @@
         "input": {
             "11111111-1111-1111-1111-000000000000_input0": {
                 "label": {
-                    "value": "Mapper - input0"
+                    "value": "Mapperout - input0"
                 },
                 "view_type": {
                     "value": "document"
@@ -36,7 +36,7 @@
         "output": {
             "11111111-1111-1111-1111-000000000000_output0": {
                 "label": {
-                    "value": "Mapper - output0"
+                    "value": "Mapperout - output0"
                 },
                 "view_type": {
                     "value": "document"
@@ -109,8 +109,9 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Mapper"
-                    }
+                        "value": "Mapperout"
+                    },
+                    "notes": {}
                 },
                 "input": {
                     "input0": {
@@ -136,6 +137,9 @@
                     "execution_mode": {
                         "value": "Validate & Execute"
                     },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
                     "passThrough": {
                         "value": false
                     },
@@ -148,7 +152,11 @@
                                 "value": [
                                     {
                                         "expression": {
-                                            "expression": true
+                                            "expression": true,
+                                            "value": null
+                                        },
+                                        "targetPath": {
+                                            "value": null
                                         }
                                     }
                                 ]
